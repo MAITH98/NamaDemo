@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "NamaDemo",
+    "slug": "NamaDemo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+       "infoPlist": {
+        "NSFaceIDUsageDescription": "We use Face ID for secure authentication."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": ["USE_BIOMETRIC"],
+      "package": "com.yourcompany.namademo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
